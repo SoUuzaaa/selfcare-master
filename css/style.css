@@ -4,3 +4,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Topo da página */
+
+/* Selfcare */
+
+.top-page .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.container .logo svg {
+    margin-left: 30px;
+    width: 18px;
+    height: 17px;
+}
+.container .logo b {
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+/* Icons */
+
+.container .navigation {
+    margin-right: 30px;
+}
