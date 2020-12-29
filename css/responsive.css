@@ -1,0 +1,113 @@
+@media screen and (max-width: 411px) {
+    .navigation svg {
+        width: 132px;
+        height: 18px;
+    }
+    .container .navigation {
+        margin-right: 0;
+    }
+    .container .logo svg {
+        margin-left: 0px;
+        width: 15px;
+        height: 14px;
+    }
+
+    .banner img {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .products-promotions b {
+        margin-left: 10px;
+    }
+    .products-promotions span {
+        margin-right: 10px;
+    }
+
+    /* Products*/
+    .products-info {
+        padding: 35px;
+    }
+    .product {
+        width: 125px;
+        height: 125px;
+        object-fit: cover;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    .product-image {
+        width: 100%;
+        height: 100%; 
+    }
+    .product img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    
+    /* Product Info-Price */
+    
+    .product h3 {
+        font-size: 12px;
+        margin: 6px 0 0 0;
+    }
+    .product span {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .product b {
+        font-size: 12px;
+        color: var(--Verde);
+    }
+
+
+    .infos, .social {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        justify-content: space-between;
+    }
+    
+    /* Contact and More */
+    .contact {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .contact span {
+        margin-bottom: 8px;
+    }
+    
+    /* Email */
+    .email h3 {
+        margin-top: 25px;
+        font-size: 12px;
+    }
+    .email input {
+        border-radius: 5px;
+        margin-top: 10px;
+        padding: 10px 113px 10px 10px;
+    }
+    .email button {
+        border-radius: 5px;
+        margin-top: 10px;  
+        padding: 11px 110px;
+    }
+
+    /* Social and Payments Methods */
+    .social-icons svg{
+        width: 25px;
+        height: 24px;
+        margin-right: 15px;
+    }
+    .payments a svg {
+        width: 25px;
+        height: 24px;
+    }
+    .payments svg {
+        margin-left: 5px;
+    }
+    .social {
+        flex-direction: row;
+    }
+}
