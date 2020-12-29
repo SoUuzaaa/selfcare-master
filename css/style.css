@@ -95,10 +95,10 @@ hr {
 footer {
     background-color: var(--CinzaFooter);
 }
-.infos {
+.infos, .social {
     display: flex;
     flex: row;
-    padding: 50px;
+    padding: 40px;
     justify-content: space-between;
 }
 
@@ -132,4 +132,17 @@ footer {
     font-weight: 600;
     color: white;
     padding: 11px 25px;
+}
+
+/* Social and Payments Methods */
+.social-icons svg{
+    width: 25px;
+    height: 24px;
+    margin-right: 15px;
+}
+.payments svg {
+    margin-left: 15px;
+}
+a{
+    text-decoration: none;
 }
