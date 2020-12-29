@@ -75,6 +75,9 @@ hr {
     height: 300px;
     object-fit: cover;
     margin: 0 30px;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-delay: 300ms;
 }
 .product-image {
     width: 100%;
@@ -85,8 +88,13 @@ hr {
     height: 100%;
     object-fit: cover;
     border-radius: 4px;
+    transition: 0.5s;
 }
-
+.product img:hover {
+    z-index: 1;
+    transform: scale(1.05);
+    box-shadow: 0 25px 40px (rgba(0,0,0,.5));
+}
 
 /* Product Info-Price */
 
@@ -155,4 +163,15 @@ footer {
 }
 a{
     text-decoration: none;
+}
+
+/* Animation move from left to right*/
+@keyframes move {
+    from {
+        opacity: 0;
+        transform: translateX(-35%);
+    } to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
 }
