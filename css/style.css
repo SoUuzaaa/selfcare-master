@@ -1,10 +1,16 @@
+:root {
+    --Verde: #5CA720;
+    --Preto: #161616;
+    --Cinza: #A5A1A1;
+    --CinzaFooter: #F9F9F9;
+}
 * {
     font-family: 'Lato';
+    color: var(--Preto);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 /* Topo da página */
 
 /* Selfcare */
@@ -30,4 +36,53 @@
 
 .container .navigation {
     margin-right: 30px;
+}
+
+/* Products */
+
+/* Products-Promotions */
+
+.products-promotions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.products-promotions b {
+    margin-left: 30px;
+}
+.products-promotions span {
+    margin-right: 30px;
+}
+
+/* Product Ajust */
+
+.products-info {
+    padding: 50px;
+}
+.product-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.product-line img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* Product Info-Price */
+
+.product h3 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+.product span {
+    font-weight: 600;
+}
+.product b {
+    color: var(--Verde);
 }
